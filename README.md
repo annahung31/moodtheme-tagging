@@ -23,7 +23,13 @@ Two kinds of classifiers:
 2. CNN
 
 
+## Training policy  
 
+
+## Future work  
+In this work, we view classes as independent classes, so every class has equal chance to be selected. However, some classes are often appeared together. For example, a "holiday" song usually will also be tagged as "happy". You can see in the tag co-occurrence figure:  
+![](./src/tag_co_occurance.png)  
+So the next approach might be a hierarchical prediction, which means to make the classes into several groups,  and predict group first than the actual class.
 
 
 ## TODO
